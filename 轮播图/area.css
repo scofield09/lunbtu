@@ -1,0 +1,35 @@
+#location{
+    position: relative;
+}
+#location:hover .itemList{
+    display: block;
+}
+#location img{
+    width: 20px;
+    height: 20px;
+}
+#location .itemList{
+     border: 1px solid #ddd;
+     background-color: #fff;
+     padding: 10px;
+     display: none;
+     position: absolute;
+     z-index: 99;
+}
+#location .itemList .item{
+    display: inline-block;
+    width: 70px;
+    padding: 5px;
+}
+#location .itemList .item:hover{
+    background-color: #Ddd;
+}
+#location .itemList .item a:hover{
+    color: #f40;
+}
+#location .itemList .item .nawActive{
+    background-color: red;
+}
+#location .itemList .item .nawActive a{
+    color:#fff;
+}
